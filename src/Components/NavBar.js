@@ -51,11 +51,6 @@ const NavBar = () => {
                                 Services
                             </Link>
                         </li>
-                        <li className='nav-item'>
-                            <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
-                                Sign Up
-                            </Link>
-                        </li>
                     </ul>
 
                     {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
